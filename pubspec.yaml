@@ -1,0 +1,38 @@
+name: halloween_apple_dev
+description: Halloween Challenge for Apple Dev Lab.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.0.0+2
+  flutter_staggered_grid_view: ^0.4.1
+  flutter_svg: ^0.23.0+1
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Hantton
+      fonts:
+        - asset: assets/fonts/Hatton-Medium.otf
+        - asset: assets/fonts/Hatton-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/Hatton-Ultralight.otf
+          weight: 300
